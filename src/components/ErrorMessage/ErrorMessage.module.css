@@ -1,6 +1,22 @@
 .error-message {
-  color: tomato;
-  font-size: 20px;
-  text-align: center;
-  margin: 24px;
+    color: var(--white);
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 24px;
+    background-color: var(--bg-2);
+    width: fit-content;
+    border-radius: 8px;
+    margin: 24px auto;
+    animation-name: show;
+    animation-duration: var(--tr-duration);
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
 }
