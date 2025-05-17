@@ -1,0 +1,46 @@
+.header {
+    background-color: var(--bg-1);
+    padding: 10px 48px;
+    border-radius: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.form input,
+.form button {
+    background-color: transparent;
+    border: none;
+}
+
+.form input {
+    border-bottom: solidvar(--white) 1px;
+    color: var(--white);
+    font-size: 24px;
+}
+
+.form input:focus {
+    outline: none;
+    border-bottom: 1px var(--white) solid;
+}
+
+.form button {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    color: transparent;
+    margin-right: 1rem;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    color: var(--white);
+}

@@ -1,0 +1,7 @@
+.image {
+    transition: transform var(--tr-duration);
+}
+
+.image:hover {
+    transform: scale(1.1);
+}

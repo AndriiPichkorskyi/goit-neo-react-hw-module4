@@ -1,0 +1,47 @@
+body {
+    font-family: "Montserrat Alternates";
+
+    --s: 23px; /* control the size*/
+    --c1: #774f38;
+    --c2: #f1d4af;
+
+    --g: conic-gradient(at 90% 40%, #0000 75%, var(--c1) 0);
+    background: var(--g), var(--g) var(--s) var(--s) var(--c2);
+    background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
+
+:root {
+    --white: #fff;
+    --tr-duration: 300ms;
+
+    --color-1: #cb997e;
+    --color-2: #ddbea9;
+    --color-3: #ffe8d6;
+    --color-4: #b7b7a4;
+    --bg-1: #a5a58d;
+    --bg-2: #6b705c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
